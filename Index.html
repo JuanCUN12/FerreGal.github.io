@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FerreGal</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    </head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="content-customer-support">
+                        <span class="text"><b>Soporte al cliente:</b></span>
+                        <span class="text"><b>E-Mail:</b> ventasweb@FerreGal.com</span>
+                        <span class="number">123-456-7890</span>
+                    </div>
+                </div>
+            <div class="container-logo">
+                <a href="./Index.html"><img src="./Imegenes/Logo FerreGal.jpeg"></a>
+            </div>
+            <div class="container-user">
+                <i class="fa-solid fa-user"></i>
+            
+                <li class="content-shopping-car">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div id= "carrito"> 
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#">CATEGORIAS</a>
+                        <ul class="menu-vertical">
+                            <li><a href="#">Construcción e indumentaria</a></li>
+                            <li><a href="#">Herramietas Electricas</a></li>
+                            <li><a href="#">Electrodomésticos</a></li>
+                            <li><a href="#">Muebles para tu Hogar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./Index.html">INICIO</a></li>
+                    <li><a href="#Mejores-categorias">MEJORES OFERTAS</a></li>
+                    <li><a href="#">TIENDAS</a>
+                        <ul class="menu-vertical">
+                            <li><a href="#">La Pintada- Antioquia, calle 12 - Cr #24-34</a></li>
+                            <li><a href="#">medellin - Antioquia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">COTIZA AQUI</a></li>
+                    <li><a href="./paginas/Pestana2.html">FERREGAL</a>
+                        <ul class="menu-vertical">
+                            <li><a href="./paginas/Pestana2.html">Quienes somos</a></li>
+                            <li><a href="./paginas/Pestana2.html">Algo más</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..."/>
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <div class="content-banner">
+            <p><b>Herramientas para tu hogar</b></p>
+            <h2>Ferreteria <br> <br> <br>FerreGal</h2>
+            <a href="#"><b>COMPRA AQUÍ </b><i class="fa-regular fa-hand-pointer"></i></a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div class="feacture-content">
+                    <span><b>Envío a nivel nacional</b></span>
+                    <p>por compras superiores a $100.000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feacture-content">
+                    <span><b>Contrareembolso</b></span>
+                    <p>100% garantia de devolución de dinero</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feacture-content">
+                    <span><b>Tarjeta regalo especial</b></span>
+                    <p>Ofrece bonos especiales con regalo</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feacture-content">
+                    <span><b>Servicio al cliente 24/7</b></span>
+                    <p>Llámenos al 123-456-7890</p>
+                </div>
+            </div>
+        </section> 
+
+        <section class="container top-categories" id="Mejores-categorias">
+            <h1 class="heading-1"><b>Mejores Categorías</b></h1>
+            <div class="container-categories">
+                <div class="card-category category-HeElec">
+                    <p>Herramientas Eléctricas e Inalámbricas</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-electrodom">
+                    <p>Electrodomésticos</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-muebles">
+                    <p>Muebles y escritorios para tu hogar</p>
+                    <span>Ver más</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container top-products">
+            <h1 class="heading-1"><b>Mejores Productos</b></h1>
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más Recientes</span>
+                <span>Mejores Vendidos</span>
+            </div>
+            <div class="container-products">
+                <!--Producto 1 licuadora-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="./Imegenes/Licuadora.png" alt="Licuadora">
+                        <span class="discount">-15%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Licuadora</h3>
+                        <span class="add-cart"><i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                        <p class="price">$140.999<span>$180.999</span></p>
+                    </div>
+                </div>
+                <!--Producto 2 pulidora-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="./Imegenes/Pulidora.png" alt="Pulidora">
+                        <span class="discount">-10%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Pulidora</h3>
+                        <span class="add-cart"><i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                        <p class="price">$450.999<span>$500.999</span></p>
+                    </div>
+                </div>
+                <!--Producto 3 silla-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="./Imegenes/Silla.png" alt="Silla">
+                        <span class="discount">-15%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Silla</h3>
+                        <span class="add-cart"><i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                        <p class="price">$100.999<span>$115.999</span></p>
+                    </div>
+                </div>
+                <!--Producto 4 Tv-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="./Imegenes/TV.png" alt="TV">
+                        <span class="discount">-20%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Smart TV LG</h3>
+                        <span class="add-cart"><i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                        <p class="price">$1.650.999<span>$2.100.999</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <img 
+             src="Imegenes/gallery1.jpg" 
+            alt="Gallery Img1"
+            class= "gallery-img-1"
+            /><img 
+            src="Imegenes/gallery2.jpg" 
+            alt="Gallery Img2"
+            class= "gallery-img-2"
+            /><img 
+            src="Imegenes/gallery3.jpg" 
+            alt="Gallery Img3"
+            class= "gallery-img-3"
+            /><img 
+            src="Imegenes/gallery4.jpg" 
+            alt="Gallery Img4"
+            class= "gallery-img-4"
+            /><img 
+            src="Imegenes/gallery5.jpg" 
+            alt="Gallery Img5"
+            class= "gallery-img-5"
+            />
+    </section>
+ </main>
+<footer class="footer">
+    <div class="container container-footer">
+        <div class="menu-footer">
+            <div class="contact-info">
+                <p class="title-footer">Información de contacto</p>
+                <ul>
+                    <li><b>Dirección:</b> calle central, calle 12 - Cr #24-34</li>
+                    <li><b>Telefono:</b> 123-456-7890</li>
+                    <li><b>E-Mail:</b> ventasweb@FerreGal.com</li>
+                </ul>
+                <div class="social-icons">
+                    <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                    <span class="pinterest"><i class="fa-brands fa-pinterest"></i></span>
+                    <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                </div>
+            </div>
+            <div class="information">
+                <p class="title-footer">Información</p>
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Información Delivery</a></li>
+                    <li><a href="#">Politicas de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Contactános</a></li>
+                </ul>
+            </div>
+            <div class="my-account">
+                <p class="title-footer">Mi Cuenta</p>
+                <ul>
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Historial de ordenes</a></li>
+                    <li><a href="#">Lista de Deseos</a></li>
+                    <li><a href="#">Boletín</a></li>
+                    <li><a href="#">Reembolsos</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <p class="title-footer">Boletín información</p>
+                <div class="content">
+                    <p>Suscribete a nuestros boletines ahora y mantente al dia con nuevas ofertas exclusivas.</p>
+                    <input type="email" placeholder="Ingresa el correo aqui...">
+                    <button>Suscribete</button>
+                </div>  
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Desarrollado por JuanFB &copy; 2024</p>
+            <img src="./Imegenes/pagos.png" alt="Pagos">
+        </div>
+    </div>
+</footer>
+
+    <script 
+     src="https://kit.fontawesome.com/ee12c8103c.js" 
+     crossorigin="anonymous">
+    </script>
+</body>
+</html>
